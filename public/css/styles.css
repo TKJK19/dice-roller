@@ -1,0 +1,76 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #222;
+}
+
+.app {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app__top a {
+  text-decoration: none;
+  color: #222;
+}
+
+.app__top h1 {
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+.app__top #winner {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.app__mid {
+  margin-bottom: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__mid img {
+  width: 160px;
+  border: 2px solid black;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+}
+
+.app__mid p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.app__btm {
+  position: relative;
+  top: 100;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
